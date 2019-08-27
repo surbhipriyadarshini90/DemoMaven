@@ -22,6 +22,7 @@ public class TestDemo
 		driver.get("http://www.google.com");
 		System.out.println(driver.getTitle());
 		System.out.println(driver.getCurrentUrl());
+		System.out.println("done");
 		driver.close();		
 	}
 	
